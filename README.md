@@ -31,6 +31,17 @@ log.Print(res)
 
 go-eval leverges the awesome AST and Parser packages that ship in the Go standard library. It constructs an abstract syntax tree from the specified expression and walks the tree to determine the result.
 
+## Tests
+
+```go
+go get github.com/tools/godep
+godep restore
+go test
+
+PASS
+ok  	github.com/diggs/go-eval	0.005s
+```
+
 ## Limitations
 
 Floats are not supported yet.
