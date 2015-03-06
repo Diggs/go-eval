@@ -1,6 +1,6 @@
 ## What is go-eval?
 
-go-eval evaluates boolean or basic arithmetic expressions from strings. It's analgous to a basic form of the eval function often found in dynamic languages.
+go-eval evaluates boolean or basic arithmetic expressions from strings. It's analogous to a basic form of the eval function often found in dynamic languages.
 
 Examples:
 ```go
